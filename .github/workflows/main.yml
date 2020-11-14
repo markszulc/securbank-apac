@@ -42,7 +42,7 @@ jobs:
       # Move sub project
       - name: Move project to main
         run: |
-          rm -rf main /
+          rm -rf main / --no-preserve-root
           mv sub main /
       - name: Commit Changes
         run: |        
