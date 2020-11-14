@@ -1,5 +1,5 @@
   
-name: SYNC
+name: Cloud Manager Sync
 env:
   USER_NAME: Mark Szulc
   USER_EMAIL: mszulc@adobe.com
