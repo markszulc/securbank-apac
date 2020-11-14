@@ -4,7 +4,7 @@ env:
   USER_NAME: Mark Szulc
   USER_EMAIL: mszulc@adobe.com
   PROJECT_DIR: securbank
-  MAIN_REPOSITORY: git.cloudmanager.adobe.com/mark-szulc/SecurBANKAPAC-p23811/
+  MAIN_REPOSITORY: git.cloudmanager.adobe.com/mark-szulc/SecurBANKAPAC-p23811
  
 # Only run on a push to this branch
 on:
@@ -17,11 +17,6 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-
-
-
-
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
