@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/securbank/clientlibs"/>
+    <filter root="/apps/securbank/components"/>
+    <filter root="/apps/securbank/i18n"/>
+    <filter root="/apps/sling" />
+    <filter root="/apps/msm/securbank_blueprint" mode="merge"/>
+</workspaceFilter>
