@@ -1,3 +1,3 @@
 # securbank-apac
 
-Github actions...sync
+Github actions...clean up
