@@ -42,10 +42,10 @@ jobs:
       # Move sub project
       - name: Move project to main
         run: |
-          rm -rf main / --no-preserve-root
-          mv sub main /
+          rm -rf main/${PROJECT_DIR}
+          mv sub main/${PROJECT_DIR}
       - name: Commit Changes
         run: |        
-          git -C main add .
+          git -C main add ${PROJECT_DIR}
           git -C main commit -F ../commit.txt
           git -C main push
