@@ -3,8 +3,9 @@ name: Cloud Manager Sync
 env:
   USER_NAME: Mark Szulc
   USER_EMAIL: mszulc@adobe.com
-  PROJECT_DIR: securbank
   MAIN_REPOSITORY: git.cloudmanager.adobe.com/mark-szulc/SecurBANKAPAC-p23811
+  CMGITUSERNAME: mszulc-adobe-com
+  # SET CM_PASS SECRET on GITHUB  
  
 # Only run on a push to this branch
 on:
@@ -38,14 +39,15 @@ jobs:
       # Checkout the main project
       - name: Checkout main project
         run: 
-          git clone https://mszulc-adobe-com:${{ secrets.cm_pass }}@${MAIN_REPOSITORY} main
+          git clone https://${CMGITUSERNAME}:${{ secrets.cm_pass }}@${MAIN_REPOSITORY} main
       # Move sub project
       - name: Move project to main
         run: |
-          rm -rf main/${PROJECT_DIR}
-          mv sub main/${PROJECT_DIR}
+          rm -rf main/*
+          mv sub/* main/
+          rm -rf sub
       - name: Commit Changes
         run: |        
-          git -C main add ${PROJECT_DIR}
+          git -C main add --all
           git -C main commit -F ../commit.txt
           git -C main push
