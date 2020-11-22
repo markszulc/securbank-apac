@@ -2,84 +2,72 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        jcr:mixinTypes="[cq:LiveRelationship]"
-        pageTitle="SecurBank"
-        jcr:primaryType="cq:PageContent"
-        jcr:title="en"
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2020-11-22T13:46:13.133+11:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2020-11-22T13:46:13.117+11:00"
+        cq:lastRolledoutBy="admin"
         cq:template="/conf/securbank/settings/wcm/templates/page-content"
+        jcr:mixinTypes="[cq:LiveRelationship]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
         sling:resourceType="securbank/components/page"
-    >
+        pageTitle="SecurBank">
         <root
+            cq:lastRolledout="{Date}2020-11-22T13:46:13.112+11:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="securbank/components/container"
-             jcr:mixinTypes="[cq:LiveRelationship]"
             layout="responsiveGrid">
             <container
+                cq:lastRolledout="{Date}2020-11-22T13:46:13.115+11:00"
+                cq:lastRolledoutBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
-             jcr:mixinTypes="[cq:LiveRelationship]"
                 sling:resourceType="securbank/components/container">
                 <title
+                    cq:lastRolledout="{Date}2020-11-22T13:46:13.128+11:00"
+                    cq:lastRolledoutBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="securbank/components/title"/>
                 <container
+                    cq:lastRolledout="{Date}2020-11-22T13:46:13.134+11:00"
+                    cq:lastRolledoutBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="securbank/components/container"
+                    layout="responsiveGrid"/>
+                <title_msm_moved
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="securbank/components/title"/>
+                <container_msm_moved
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="securbank/components/container"
                     layout="responsiveGrid">
                     <teaser
-                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        cq:isCancelledForChildren="{Boolean}true"
+                        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSyncCancelled]"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Epic Journey"
-                        sling:resourceType="securbank/components/teaser"
-                        actionsEnabled="false"
-                        descriptionFromPage="false"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </teaser>
+                        sling:resourceType="wcm/msm/components/ghost"/>
                     <teaser_copy
-                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        cq:isCancelledForChildren="{Boolean}true"
+                        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSyncCancelled]"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Epic Journey"
-                        sling:resourceType="securbank/components/teaser"
-                        actionsEnabled="false"
-                        descriptionFromPage="false"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </teaser_copy>
+                        sling:resourceType="wcm/msm/components/ghost"/>
                     <teaser_copy_1579324932
-                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        cq:isCancelledForChildren="{Boolean}true"
+                        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSyncCancelled]"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Epic Journey"
-                        sling:resourceType="securbank/components/teaser"
-                        actionsEnabled="false"
-                        descriptionFromPage="false"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </teaser_copy_1579324932>
+                        sling:resourceType="wcm/msm/components/ghost"/>
                     <helloworld
+                        cq:isCancelledForChildren="{Boolean}true"
+                        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSyncCancelled]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="securbank/components/helloworld"
-                        text="lalala :)"/>
-                </container>
+                        sling:resourceType="wcm/msm/components/ghost"/>
+                </container_msm_moved>
             </container>
         </root>
         <cq:LiveSyncConfig
@@ -88,4 +76,5 @@
             cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default]"
             jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>
+    <home/>
 </jcr:root>

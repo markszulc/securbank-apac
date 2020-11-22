@@ -3,6 +3,8 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2020-11-22T13:37:48.355+11:00"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/securbank/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="securbank/components/page">
@@ -15,22 +17,15 @@
                 sling:resourceType="securbank/components/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/securbank/language-masters/en/site/header/master"/>
             <container
+                cq:styleIds="[1606011724083]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="securbank/components/container"
                 layout="responsiveGrid">
-                <title
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="securbank/components/title"
-                    editable="{Boolean}true"/>
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="securbank/components/container"
                     editable="{Boolean}true"/>
             </container>
-            <experiencefragment-footer
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="securbank/components/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/securbank/language-masters/en/site/footer/master"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

@@ -1,18 +1,77 @@
 
 //== Font
 
-$font-family:           "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-size:             16px;
-$font-height:           1.5;
+$font-family-sans-serif:  "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:       "Asar",Georgia, "Times New Roman", Times, serif;
+$font-family-base:        $font-family-sans-serif;
+$font-family:        $font-family-sans-serif;
+
+
+$font-size-base:          18px;
+$font-size-large:         24px;
+$font-size-xlarge:        48px;
+$font-size-medium:		  18px;
+$font-size-small:         14px;
+$font-size-xsmall:		  12px;
+
+$font-size-h1:            36px;
+$font-size-h2:            32px; 
+$font-size-h3:            24px; 
+$font-size-h4:            16px; 
+$font-size-h5:            14px;
+$font-size-h6:            10px; 
+
+$font-size:             $font-size-base;
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        1.5;
+$line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
+$font-height:             $line-height-base;
+
+$font-weight-light:      300;
+$font-weight-normal:     normal;
+$font-weight-semi-bold:  400;
+$font-weight-bold:       600;
+
+//== Layout
+$gutter-padding: 14px;
+
+$max-width: 1164px;
+$max-body-width: 1136px;
+$screen-xsmall: 475px;
+$screen-small: 767px;
+$screen-medium: 1024px;
+$screen-large: 1200px;
+
+//=== Page Layout
+$header-height: 0px;
+$header-mobile-height: 0px;
+$utility-nav-height: 40px;
+
 
 //== Color
 
+$black:                  #202020;
+$gray:                   #696969;
+$gray-light:             #EBEBEB;
+$gray-lighter:           #F7F7F7;
+$white:                  #ffffff;
+
+$orange:                 #FF6F20;
+$yellow:                 #FFE900;
+$blue:                   #0045FF;
+$pink:                   #FF0058;
+
+
+$brand-primary:           $orange;
+
 // Normal mode
-$color-foreground:      #202020;
-$color-background:      #ECECEC;
+$color-foreground:      $black;
+$color-background:      $white;
 $color-link:            #2020E0;
 
 // Dark mode
 $color-foreground-dark: invert($color-foreground);
 $color-background-dark: invert($color-background);
 $color-link-dark:       invert($color-link);
+
