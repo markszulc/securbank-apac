@@ -1,0 +1,73 @@
+.cmp-contentfragmentlist-creditcardlist {
+    
+
+
+.cmp-contentfragment {
+    
+}
+
+.cmp-contentfragment__title {
+    display: none;
+}
+
+.cmp-contentfragment__elements {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    grid-row-gap: 0px;
+    grid-auto-rows: minmax(40px, auto);
+    margin-bottom: 50px;
+    min-width: 100%;
+}
+
+.cmp-contentfragment__element-title {
+    display: none;
+}
+.cmp-contentfragment__element-value{
+    margin:0;
+}
+
+
+.cmp-contentfragment__element--cardname{
+    font-family: rubik, sans-serif;
+    font-size: 30px;
+    grid-column: 1 / 2;
+    grid-row: 1;
+    margin-bottom: 15px;
+}
+
+.cmp-contentfragment__element--shortsummary{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.cmp-contentfragment__element--benefitssummary{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.cmp-contentfragment__element--creditcardimage{
+    display: none;
+}
+
+.cmp-contentfragment__element--creditcarddetailspage{
+    display: none;
+}
+
+.cmp-contentfragment_image {
+    grid-column: 1;
+    grid-row: 2/5;
+}
+
+.cmp-contentfragment_image img{
+    max-width: 400px;
+}
+
+
+.cmp-contentfragment__element--benefitssummary ul{
+    list-style-type: square;
+    padding-inline-start: 20px;
+}
+
+}

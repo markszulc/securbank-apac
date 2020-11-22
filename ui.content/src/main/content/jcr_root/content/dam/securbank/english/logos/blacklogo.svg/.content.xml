@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="00cfe84c-caf0-4967-a17d-f8ffe204ec77">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2020-11-22T20:20:04.244+11:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2020-11-22T20:20:03.336+11:00"
+            dam:sha1="fd5b55dd3738623494a293ac526abcdf16adb58d"
+            dam:size="{Long}917"
+            dc:format="image/svg+xml"
+            dc:title="blacklogo.svg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2020-11-22T20:20:59.555+11:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

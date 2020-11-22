@@ -69,9 +69,49 @@ $brand-primary:           $orange;
 $color-foreground:      $black;
 $color-background:      $white;
 $color-link:            #2020E0;
+$text-color:            $color-foreground;
+$nav-link:              $black;
+$nav-link-inverse:      $gray-light;
+
+$list-item-height: 120px;
+$list-item-border: 5px solid $color-foreground;
 
 // Dark mode
 $color-foreground-dark: invert($color-foreground);
 $color-background-dark: invert($color-background);
 $color-link-dark:       invert($color-link);
 
+
+
+@mixin container-fixed($gutter: $grid-gutter-width){
+    margin-right: auto;
+    margin-left: auto;
+    padding-left:  floor(($gutter / 2));
+    padding-right: ceil(($gutter / 2));
+  }
+
+@mixin container-content(){
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $gutter-padding;
+  float: unset !important;
+	
+}
+
+@mixin animated(){
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@mixin fadeIn(){
+-webkit-animation-name: fadeIn;
+animation-name: fadeIn;
+}
+
+@mixin boxShadow(){
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
+}

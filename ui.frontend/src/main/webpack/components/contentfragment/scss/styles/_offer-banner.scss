@@ -1,0 +1,99 @@
+.offer-banner{
+
+.cmp-contentfragment {
+
+    background-size: cover;
+    background-position: center;
+    align-items: left;
+    min-height: 440px;
+    padding-top: 100px;
+    font-family: rubik, sans-serif;
+    font-style: normal;
+    margin-bottom: 64px;
+    margin-inline-start: 0px;
+
+    .cmp-contentfragment__title {
+        display:none;
+    }
+
+    .cmp-contentfragment__description {
+        display: none;
+    }
+
+    .cmp-contentfragment__element-title {
+        display: none;
+    }
+
+
+    .cmp-contentfragment__elements {
+
+        display: flex;
+        flex-direction: column;
+
+        padding: 28px;
+        max-width: 500px;
+        min-height: 100px;
+        opacity: 0.9;
+        width: 100%;
+        background-color: #fff;
+        padding-left: $gutter-padding * 2;
+        padding-right: $gutter-padding * 2;
+        margin-left: calc((100% - 1130px)/2);
+
+    }
+
+
+    .cmp-contentfragment__element--title {
+
+        .cmp-contentfragment__element-value {
+            font-family: rubik, sans-serif;
+            font-size: 2pc;
+            font-weight: 700;
+        }
+    }
+
+    .cmp-contentfragment__element--description {
+
+        .cmp-contentfragment__element-value {
+            font-family: rubik, sans-serif;
+            font-style: normal;
+            font-size: 20px;
+            margin-bottom: 32px;
+            margin-top: 32px;
+        }
+    }
+
+    .cmp-contentfragment__element--image {
+
+        z-index: 1;
+
+        .cmp-contentfragment__element-value {
+            display: none;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+           
+        }
+    }
+
+    .cmp-contentfragment__element--cta {
+
+        background-color:#FF6F20;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding: 1em 2.5em;
+        font-weight: 600;
+        width: fit-content;
+        color: #fff;
+        margin-bottom: 10px;
+        }
+
+        .cmp-contentfragment__element--ctalinkpath {
+            display: none;
+        }
+}
+}

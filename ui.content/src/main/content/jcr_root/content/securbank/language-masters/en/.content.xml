@@ -28,4 +28,8 @@
             </container>
         </root>
     </jcr:content>
+    <banking/>
+    <credit-cards/>
+    <insurance/>
+    <about-us/>
 </jcr:root>
