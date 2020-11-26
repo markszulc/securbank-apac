@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="241030ad-0107-4463-ac4e-9ee1f4cf6c1d">
+    <jcr:content
+        cq:name="low-fee-card"
+        cq:parentPath="/content/dam/securbank/english/credit-cards"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-11-26T21:05:48.793+11:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Low Fee Card"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-11-26T21:05:48.793+11:00">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/credit-cards"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                benefitsSummary="&lt;p>Lots of &lt;b>Benefits&lt;/b>&lt;/p>&#xa;"
+                benefitsSummary_x0040_ContentType="text/html"
+                benefitsSummary_x0040_LastModified="{Date}2020-11-26T21:05:48.700+11:00"
+                creditCardDetailsPage="/content/securbank/language-masters/en"
+                creditCardDetailsPage_x0040_LastModified="{Date}2020-11-26T21:05:48.701+11:00"
+                creditCardImage="/content/dam/securbank/english/logos/blacklogo.svg"
+                creditCardImage_x0040_LastModified="{Date}2020-11-26T21:05:48.700+11:00"
+                creditCardName="Low Fee Card"
+                creditCardName_x0040_LastModified="{Date}2020-11-26T21:05:48.699+11:00"
+                shortSummary="&lt;p>Short Summary&lt;/p>&#xa;"
+                shortSummary_x0040_ContentType="text/html"
+                shortSummary_x0040_LastModified="{Date}2020-11-26T21:05:48.700+11:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

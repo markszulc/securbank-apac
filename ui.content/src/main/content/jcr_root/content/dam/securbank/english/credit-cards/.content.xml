@@ -3,8 +3,6 @@
     jcr:primaryType="sling:Folder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="English"
-        sourcing="false">
-        <folderThumbnail/>
-    </jcr:content>
+        jcr:title="Credit Cards"
+        sourcing="false"/>
 </jcr:root>

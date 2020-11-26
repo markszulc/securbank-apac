@@ -1,0 +1,27 @@
+{
+  "supportscredentials":false,
+  "exposedheaders":[
+    ""
+  ],
+  "supportedmethods":[
+    "GET"
+  ],
+  "alloworigin":[
+    "*"
+  ],
+  "maxage:Integer":1800,
+  "alloworiginregexp":[
+    ""
+  ],
+  "allowedpaths":[
+    "/graphql/execute.json/.*"
+  ],
+  "supportedheaders":[
+    "Origin",
+    "Accept",
+    "X-Requested-With",
+    "Content-Type",
+    "Access-Control-Request-Method",
+    "Access-Control-Request-Headers"
+  ]
+}
