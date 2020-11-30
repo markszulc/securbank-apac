@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-11-30T20:28:03.633+11:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2020-11-30T20:28:03.634+11:00"
+        cq:lastRolledoutBy="admin"
+        cq:template="/conf/securbank/settings/wcm/templates/page-content"
+        jcr:mixinTypes="[cq:LiveRelationship]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Banking"
+        sling:resourceType="securbank/components/page">
+        <root
+            cq:lastRolledout="{Date}2020-11-30T20:28:03.612+11:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="securbank/components/container">
+            <container
+                cq:lastRolledout="{Date}2020-11-30T20:28:03.614+11:00"
+                cq:lastRolledoutBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="securbank/components/container">
+                <container
+                    cq:lastRolledout="{Date}2020-11-30T20:28:03.620+11:00"
+                    cq:lastRolledoutBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="securbank/components/container"
+                    layout="responsiveGrid">
+                    <teaser
+                        cq:lastRolledout="{Date}2020-11-30T20:28:03.627+11:00"
+                        cq:lastRolledoutBy="admin"
+                        cq:styleIds="[1606039555541]"
+                        jcr:created="{Date}2020-11-22T20:58:30.470+11:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>No more juggling of numerous interest rates and repayment schedules. 100% online application. Up to $70,000. Competitive Rates.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2020-11-30T20:28:03.623+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Managing your debts"
+                        sling:resourceType="securbank/components/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/core-components-examples/library/sample-assets/mountain-range.jpg"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <actions
+                            cq:lastRolledout="{Date}2020-11-30T20:28:03.628+11:00"
+                            cq:lastRolledoutBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
+                            jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:lastRolledout="{Date}2020-11-30T20:28:03.631+11:00"
+                                cq:lastRolledoutBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/securbank/au/en"
+                                text="Find out more"/>
+                        </actions>
+                    </teaser>
+                    <title
+                        cq:lastRolledout="{Date}2020-11-30T20:28:03.634+11:00"
+                        cq:lastRolledoutBy="admin"
+                        jcr:created="{Date}2020-11-22T21:04:28.972+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-11-30T20:28:03.632+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Think ahead. Stay on track"
+                        sling:resourceType="securbank/components/title"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
