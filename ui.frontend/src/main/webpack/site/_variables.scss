@@ -77,9 +77,9 @@ $list-item-height: 120px;
 $list-item-border: 5px solid $color-foreground;
 
 // Dark mode
-$color-foreground-dark: invert($color-foreground);
-$color-background-dark: invert($color-background);
-$color-link-dark:       invert($color-link);
+$color-foreground-dark: $color-foreground;  //invert($color-foreground);
+$color-background-dark: $color-background;  //invert($color-background);
+$color-link-dark: $color-link; //invert($color-link);
 
 
 
