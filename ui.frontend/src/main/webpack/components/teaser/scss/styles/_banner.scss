@@ -10,6 +10,9 @@ $mobile-max-height: 400px;
         font-family: rubik, sans-serif;
         font-style: normal;
         margin-bottom: 64px;
+        max-width:1440px;
+        margin-left: auto;
+        margin-right: auto;
         
     }
 
@@ -48,12 +51,15 @@ $mobile-max-height: 400px;
         margin-bottom: 0em;
         font-family: rubik, sans-serif;
         font-weight: bold;
+        font-size: 36px;
+        text-decoration: none;
+        max-width: 350px;
         
     }
 
     .cmp-teaser__description {
-        margin-bottom: 32px;
-        margin-top: 32px;
+        margin-bottom: 12px;
+        margin-top: 28px;
         font-family: rubik, sans-serif;
         font-style: normal;
         font-size: 20px;
@@ -91,6 +97,7 @@ $mobile-max-height: 400px;
             padding-right: $gutter-padding * 2;
             margin-left: calc((100% - 1130px)/2);
             width: 500px;
+            border-radius: 20px;
             
         }
      }

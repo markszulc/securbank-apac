@@ -1,5 +1,10 @@
 .cmp-container--header {
-    padding-top:50px;
+    min-height: 82px;
+
+.cmp-container{
+
+    padding-top: 23px;
+}
 
        /* Tablet width */
    @media (max-width: $screen-medium) {

@@ -4,7 +4,7 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2020-11-30T20:24:16.044+11:00"
+        cq:lastModified="{Date}2020-12-02T20:50:51.854+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/securbank/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -18,49 +18,46 @@
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="securbank/components/container">
-                <title
+                <teaser
+                    cq:styleIds="[1606039554022]"
+                    jcr:created="{Date}2020-11-30T20:07:50.025+11:00"
+                    jcr:createdBy="admin"
+                    jcr:description="&lt;p>Introducing our new loyalty program available to eligible Mastercard cardholders in the SecurBank App.&lt;/p>&#xd;&#xa;"
+                    jcr:lastModified="{Date}2020-12-02T04:15:33.401+11:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="securbank/components/title"/>
+                    jcr:title="Rewards Points just for you."
+                    sling:resourceType="securbank/components/teaser"
+                    actionsEnabled="true"
+                    descriptionFromPage="false"
+                    fileReference="/content/dam/securbank/english/stock/AdobeStock_146003303.jpeg"
+                    textIsRich="true"
+                    titleFromPage="false">
+                    <actions jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            link="/content/securbank/language-masters/en/credit-cards"
+                            text="Find Out More"/>
+                    </actions>
+                </teaser>
                 <container
                     cq:styleIds="[1606011603279]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="securbank/components/container"
                     layout="responsiveGrid">
-                    <teaser
-                        cq:styleIds="[1606039554022]"
-                        jcr:created="{Date}2020-11-30T20:07:50.025+11:00"
-                        jcr:createdBy="admin"
-                        jcr:description="&lt;p>Introducing our new loyalty program available to eligible Mastercard cardholders in the SecurBank App.&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2020-11-30T20:12:58.036+11:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Rewards Points just for you."
-                        sling:resourceType="securbank/components/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="false"
-                        fileReference="/content/dam/securbank/english/stock/AdobeStock_146003303.jpeg"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <actions jcr:primaryType="nt:unstructured">
-                            <item0
-                                jcr:primaryType="nt:unstructured"
-                                link="/content/securbank/language-masters/en/credit-cards"
-                                text="Find Out More"/>
-                        </actions>
-                    </teaser>
                     <teaser_280592287
                         cq:styleIds="[1606039555541]"
                         jcr:created="{Date}2020-11-30T20:15:07.610+11:00"
                         jcr:createdBy="admin"
                         jcr:description="&lt;p>No more juggling of numerous interest rates and repayment schedules. 100% online application. Up to $70,000. Competitive Rates&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2020-11-30T20:16:50.325+11:00"
+                        jcr:lastModified="{Date}2020-12-02T04:12:10.862+11:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Managing your debts"
                         sling:resourceType="securbank/components/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/securbank/english/stock/AdobeStock_115991178.jpeg"
+                        fileReference="/content/dam/securbank/english/stock/AdobeStock_296480925.jpeg"
                         textIsRich="true"
                         titleFromPage="false">
                         <actions jcr:primaryType="nt:unstructured">
@@ -97,6 +94,10 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="4"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
                         </cq:responsive>
                     </teaser_258619772>
                     <teaser_258619772_cop
@@ -118,6 +119,10 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="4"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
                         </cq:responsive>
                         <actions jcr:primaryType="nt:unstructured">
                             <item0
@@ -145,6 +150,10 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="4"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
                         </cq:responsive>
                     </teaser_258619772_cop_1749633671>
                     <title_602689822
