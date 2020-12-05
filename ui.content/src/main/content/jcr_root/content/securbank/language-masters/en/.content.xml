@@ -4,6 +4,7 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:deviceGroups="[/etc/mobile/groups/securbank]"
         cq:lastModified="{Date}2020-12-02T20:50:51.854+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/securbank/settings/wcm/templates/page-content"

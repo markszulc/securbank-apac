@@ -3,6 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:deviceGroups="[/etc/mobile/groups/securbank]"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
         cq:lastModified="{Date}2020-12-02T20:56:37.036+11:00"
         cq:lastModifiedBy="admin"

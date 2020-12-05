@@ -24,19 +24,44 @@
   .generate-grid(default, @max_col);
 }
 
-/* phone breakpoint */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .aem-Grid {
-    .generate-grid(phone, @max_col);
+      .generate-grid(phone-portrait, @max_col);
   }
 }
 
-/* tablet breakpoint */
-@media (min-width: 769px) and (max-width: 1200px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .aem-Grid {
-    .generate-grid(tablet, @max_col);
+      .generate-grid(phone-landscape, @max_col);
   }
 }
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .aem-Grid {
+      .generate-grid(tablet-portrait, @max_col);
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .aem-Grid {
+      .generate-grid(tablet-landscape, @max_col);
+  }
+}
+
+// /* phone breakpoint */
+// @media (max-width: 768px) {
+//   .aem-Grid {
+//     .generate-grid(phone, @max_col);
+//   }
+// }
+
+// /* tablet breakpoint */
+// @media (min-width: 769px) and (max-width: 1200px) {
+//   .aem-Grid {
+//     .generate-grid(tablet, @max_col);
+//   }
+// }
+
 
 /* force showing hidden components in unhide mode */
 .aem-GridShowHidden > .cmp-container > .aem-Grid > .aem-GridColumn {

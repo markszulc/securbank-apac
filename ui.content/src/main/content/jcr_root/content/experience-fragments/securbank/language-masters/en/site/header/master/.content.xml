@@ -5,6 +5,7 @@
         cq:lastModified="{Date}2020-12-02T20:52:07.773+11:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
+        cq:deviceGroups="[/etc/mobile/groups/securbank]"
         cq:template="/conf/securbank/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
         cq:xfVariantType="web"
