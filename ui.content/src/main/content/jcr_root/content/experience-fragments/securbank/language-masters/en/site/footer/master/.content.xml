@@ -2,6 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2020-12-05T15:26:48.655+11:00"
+        cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/securbank/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -13,14 +15,55 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="securbank/components/container"
             layout="simple">
-            <separator
+            <container
+                cq:styleIds="[1606037106782]"
+                jcr:created="{Date}2020-12-05T15:04:03.018+11:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-12-05T15:04:03.018+11:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="securbank/components/separator"/>
-            <text
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="securbank/components/text"
-                text="&lt;p>Copyright 2020, SecurBank.&amp;nbsp;All rights reserved.&lt;/p>&#xd;&#xa;"
-                textIsRich="true"/>
+                sling:resourceType="securbank/components/container">
+                <container_copy
+                    cq:styleIds="[1606036305560]"
+                    jcr:created="{Date}2020-12-05T15:05:07.595+11:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-12-05T15:05:07.595+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="securbank/components/container">
+                    <text_1676290362
+                        jcr:created="{Date}2020-12-05T15:20:35.777+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-12-05T15:20:53.828+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="securbank/components/text"
+                        text="&lt;p>ABOUT US&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <list
+                        jcr:created="{Date}2020-12-05T15:19:34.475+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-12-05T15:20:18.332+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="securbank/components/list"
+                        childDepth="1"
+                        linkItems="true"
+                        listFrom="children"
+                        parentPage="/content/securbank/language-masters/en/about-us"
+                        showDescription="false"
+                        showModificationDate="false"
+                        sortOrder="asc"
+                        tagsMatch="any"/>
+                    <text
+                        jcr:lastModified="{Date}2020-12-05T15:26:48.583+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="securbank/components/text"
+                        text="&lt;p>SecurBank is a fictitious retail banking website created by Adobe to demonstrate how anyone can use Adobe Experience Manager. This site is built entirely with Adobe Experience Manager&amp;nbsp;&lt;a href=&quot;https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html&quot;>Core Components&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a href=&quot;https://github.com/adobe/aem-project-archetype&quot;>Archetype&lt;/a>&amp;nbsp;that are available as open source code to the public. The entire&amp;nbsp;&lt;a href=&quot;https://github.com/adobe/aem-guides-wknd/&quot;>site source code&lt;/a>&amp;nbsp;is available as open source as well and is accompanied with a&amp;nbsp;&lt;a href=&quot;https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html&quot;>detailed tutorial&lt;/a>&amp;nbsp;on how to recreate the site.&lt;/p>&#xd;&#xa;&lt;p>Many of the beautiful images in the SecurBank site are available for purchase via&amp;nbsp;&lt;a href=&quot;https://stock.adobe.com/&quot;>Adobe Stock&lt;/a>.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </container_copy>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>

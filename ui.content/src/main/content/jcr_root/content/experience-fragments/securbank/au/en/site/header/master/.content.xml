@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-12-02T20:54:21.802+11:00"
+        cq:lastModified="{Date}2020-12-05T15:31:54.150+11:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/securbank/settings/wcm/templates/xf-web-variation"
@@ -53,14 +53,14 @@
                     cq:styleIds="[1606037376267]"
                     jcr:created="{Date}2020-11-22T20:09:01.664+11:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-11-22T20:13:59.795+11:00"
+                    jcr:lastModified="{Date}2020-12-05T15:31:54.074+11:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="securbank/components/navigation"
-                    collectAllPages="true"
+                    collectAllPages="false"
                     disableShadowing="false"
                     navigationRoot="/content/securbank/language-masters/en"
-                    structureDepth="2"
+                    structureDepth="1"
                     structureStart="0">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
