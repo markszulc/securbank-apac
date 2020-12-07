@@ -4,6 +4,7 @@
     <jcr:content
         cq:allowedTemplates="/conf/securbank/settings/wcm/templates/(?!xf-).*"
         cq:conf="/conf/securbank"
+        cq:deviceGroups="[/etc/mobile/groups/securbank]"
         cq:lastModified="{Date}2020-11-30T20:41:29.612+11:00"
         cq:lastModifiedBy="admin"
         jcr:primaryType="cq:PageContent"
