@@ -80,18 +80,6 @@
                             <type>zip</type>
                             <target>/apps/securbank-packages/application/install</target>
                         </embedded>
-                        <embedded>
-                            <groupId>com.adobe.cq</groupId>
-                            <artifactId>core.wcm.components.examples.ui.apps</artifactId>
-                            <type>zip</type>
-                            <target>/apps/securbank-vendor-packages/application/install</target>
-                        </embedded>
-                        <embedded>
-                            <groupId>com.adobe.cq</groupId>
-                            <artifactId>core.wcm.components.examples.ui.content</artifactId>
-                            <type>zip</type>
-                            <target>/apps/securbank-vendor-packages/content/install</target>
-                        </embedded>
                     </embeddeds>
                 </configuration>
             </plugin>
@@ -175,6 +163,70 @@
                 </plugins>
             </build>
         </profile>
+
+        <!-- AEM 6.x Profile to include Core Components-->
+        <profile>
+            <id>classic</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                <groupId>org.apache.jackrabbit</groupId>
+                <artifactId>filevault-package-maven-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <group>com.securbank</group>
+                    <packageType>container</packageType>
+                    <properties>
+                        <cloudManagerTarget>all</cloudManagerTarget>
+                    </properties>
+                    <!-- skip sub package validation for now as some vendor packages like CIF apps will not pass -->
+                    <skipSubPackageValidation>true</skipSubPackageValidation>
+                    <embeddeds>
+                        <embedded>
+                            <groupId>com.securbank</groupId>
+                            <artifactId>securbank.ui.apps</artifactId>
+                            <type>zip</type>
+                            <target>/apps/securbank-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.securbank</groupId>
+                            <artifactId>securbank.core</artifactId>
+                            <target>/apps/securbank-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.securbank</groupId>
+                            <artifactId>securbank.ui.content</artifactId>
+                            <type>zip</type>
+                            <target>/apps/securbank-packages/content/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.securbank</groupId>
+                            <artifactId>securbank.ui.config</artifactId>
+                            <type>zip</type>
+                            <target>/apps/securbank-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.wcm.components.examples.ui.apps</artifactId>
+                            <type>zip</type>
+                            <target>/apps/securbank-vendor-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.wcm.components.examples.ui.content</artifactId>
+                            <type>zip</type>
+                            <target>/apps/securbank-vendor-packages/content/install</target>
+                        </embedded>
+                    </embeddeds>
+                </configuration>
+            </plugin>
+            </plugins>
+            </build>
+         </profile>
+
     </profiles>
 
     <!-- ====================================================================== -->
