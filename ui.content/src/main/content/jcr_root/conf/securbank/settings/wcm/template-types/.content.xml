@@ -5,4 +5,7 @@
     <xf/>
     <rep:policy/>
     <page/>
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        mergeList="{Boolean}true"/>
 </jcr:root>

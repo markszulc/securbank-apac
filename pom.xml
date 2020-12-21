@@ -50,7 +50,7 @@
         <bnd.version>5.1.2</bnd.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <aem.sdk.api>2020.11.4506.20201112T235200Z-201028</aem.sdk.api>
+        <aem.sdk.api>2020.12.4676.20201216T130744Z-201201</aem.sdk.api>
         <componentGroupName>SecurBank</componentGroupName>
     </properties>
 
@@ -579,7 +579,13 @@ Bundle-DocURL:
                 <type>zip</type>
                 <version>${core.wcm.components.version}</version>
             </dependency>
-
+ 
+            <dependency>
+                <groupId>com.adobe.aem</groupId>
+                <artifactId>aem-forms-sdk-api</artifactId>         
+                <version>2020.12.16.02</version>        
+                <scope>provided</scope>     
+            </dependency> 
 
             <!-- Testing -->
             <dependency>
