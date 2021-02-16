@@ -99,3 +99,6 @@ node/
 coverage/
 reports/
 .vscode/settings.json
+
+# Mac
+.DS_Store
