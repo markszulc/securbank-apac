@@ -59,6 +59,10 @@
                         </repositoryStructurePackage>
                     </repositoryStructurePackages>
                     <dependencies>
+                        <dependency>
+                            <groupId>com.adobe.aem</groupId>
+                            <artifactId>core-forms-components-apps</artifactId>
+                    </dependency>
                     </dependencies>
                 </configuration>
             </plugin>
@@ -125,6 +129,20 @@
         <dependency>
             <groupId>com.adobe.aem</groupId>
             <artifactId>aem-sdk-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>aem-forms-sdk-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>core-forms-components-apps</artifactId>
+            <type>zip</type>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>core-forms-components-core</artifactId>
         </dependency>
 
         <!-- HTL dependencies needed for the HTL Maven Plugin source code generation -->

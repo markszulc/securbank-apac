@@ -91,6 +91,16 @@ Import-Package: javax.annotation;version=0.0.0,*
             <artifactId>aem-sdk-api</artifactId>
         </dependency>
 
+        <!-- AEM Forms Dependencies -->
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>aem-forms-sdk-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>core-forms-components-core</artifactId>
+        </dependency>
+        
         <!-- Testing -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>

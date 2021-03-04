@@ -220,6 +220,17 @@
                             <type>zip</type>
                             <target>/apps/securbank-vendor-packages/content/install</target>
                         </embedded>
+                        <embedded>
+                            <groupId>com.adobe.aem</groupId>
+                            <artifactId>core-forms-components-apps</artifactId>
+                            <type>zip</type>
+                            <target>/apps/securbank-vendor-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.aem</groupId>
+                            <artifactId>core-forms-components-core</artifactId>
+                            <target>/apps/securbank-vendor-packages/application/install</target>
+                        </embedded>
                     </embeddeds>
                 </configuration>
             </plugin>
@@ -271,5 +282,13 @@
             <artifactId>core.wcm.components.examples.ui.content</artifactId>
             <type>zip</type>
         </dependency>
+
+        <!-- AEM Forms Dependencies -->
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>core-forms-components-apps</artifactId>
+            <type>zip</type>
+        </dependency>
+
     </dependencies>
 </project>

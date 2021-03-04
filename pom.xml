@@ -52,6 +52,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <aem.sdk.api>2020.12.4676.20201216T130744Z-201201</aem.sdk.api>
         <componentGroupName>SecurBank</componentGroupName>
+        <core.forms.components.version>0.0.20</core.forms.components.version>
+        <aem.forms.sdk.api>2021.02.20.00</aem.forms.sdk.api>
     </properties>
 
     <build>
@@ -579,13 +581,26 @@ Bundle-DocURL:
                 <type>zip</type>
                 <version>${core.wcm.components.version}</version>
             </dependency>
- 
-            <dependency>
-                <groupId>com.adobe.aem</groupId>
-                <artifactId>aem-forms-sdk-api</artifactId>         
-                <version>2020.12.16.02</version>        
-                <scope>provided</scope>     
-            </dependency> 
+
+
+        <!-- AEM Forms Dependencies -->
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>aem-forms-sdk-api</artifactId>
+            <version>${aem.forms.sdk.api}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>core-forms-components-apps</artifactId>
+            <type>zip</type>
+            <version>${core.forms.components.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>core-forms-components-core</artifactId>
+            <version>${core.forms.components.version}</version>
+        </dependency>
+
 
             <!-- Testing -->
             <dependency>
