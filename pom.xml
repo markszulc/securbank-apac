@@ -18,11 +18,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.securbank</groupId>
-    <artifactId>securbank</artifactId>
+    <groupId>com.adobe.apacdemo.commons</groupId>
+    <artifactId>apacdemo</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1-SNAPSHOT</version>
-    <description>SecurBank</description>
+    <version>1.0.0-SNAPSHOT</version>
+    <description>Demo Commons</description>
 
     <modules>
         <module>all</module>
@@ -46,14 +46,14 @@
         <sling.password>admin</sling.password>
         <vault.user>admin</vault.user>
         <vault.password>admin</vault.password>
-        <core.wcm.components.version>2.13.0</core.wcm.components.version>
+        <core.forms.components.version>0.0.20</core.forms.components.version>
+        <aem.forms.sdk.api>2021.03.02.00</aem.forms.sdk.api>
         <bnd.version>5.1.2</bnd.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <aem.sdk.api>2020.12.4676.20201216T130744Z-201201</aem.sdk.api>
-        <componentGroupName>SecurBank</componentGroupName>
-        <core.forms.components.version>0.0.20</core.forms.components.version>
-        <aem.forms.sdk.api>2021.02.20.00</aem.forms.sdk.api>
+        <aem.sdk.api>2021.3.4997.20210303T022849Z-210225</aem.sdk.api>
+        <aemanalyser.version>0.0.18</aemanalyser.version>
+        <componentGroupName>Demo Commons</componentGroupName>
     </properties>
 
     <build>
@@ -280,6 +280,13 @@ Bundle-DocURL:
                             <version>6.5.5.0</version>
                         </dependency>
                     </dependencies>
+                </plugin>
+                <!-- AEM Analyser Plugin -->
+                <plugin>
+                    <groupId>com.adobe.aem</groupId>
+                    <artifactId>aemanalyser-maven-plugin</artifactId>
+                    <version>${aemanalyser.version}</version>
+                    <extensions>true</extensions>
                 </plugin>
                 <!-- Content Package Plugin -->
                 <plugin>
@@ -558,31 +565,6 @@ Bundle-DocURL:
                 <version>${aem.sdk.api}</version>
                 <scope>provided</scope>
             </dependency>
-            <dependency>
-                <groupId>com.adobe.cq</groupId>
-                <artifactId>core.wcm.components.extensions.amp</artifactId>
-                <version>${core.wcm.components.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.adobe.cq</groupId>
-                <artifactId>core.wcm.components.extensions.amp.content</artifactId>
-                <type>zip</type>
-                <version>${core.wcm.components.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.adobe.cq</groupId>
-                <artifactId>core.wcm.components.examples.ui.apps</artifactId>
-                <type>zip</type>
-                <version>${core.wcm.components.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.adobe.cq</groupId>
-                <artifactId>core.wcm.components.examples.ui.content</artifactId>
-                <type>zip</type>
-                <version>${core.wcm.components.version}</version>
-            </dependency>
-
-
         <!-- AEM Forms Dependencies -->
         <dependency>
             <groupId>com.adobe.aem</groupId>

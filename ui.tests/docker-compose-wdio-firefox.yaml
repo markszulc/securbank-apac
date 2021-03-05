@@ -34,7 +34,7 @@ services:
     volumes:
       - ./reports:/tmp/reports
       - 'shared:/tmp/shared'
-    image: 'com.securbank-securbank.ui.tests/ui.tests:latest'
+    image: 'com.adobe.apacdemo.commons-apacdemo.ui.tests/ui.tests:latest'
   selenium-firefox:
     image: 'selenium/standalone-firefox-debug'
     ports:

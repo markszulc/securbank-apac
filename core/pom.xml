@@ -18,14 +18,14 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.securbank</groupId>
-        <artifactId>securbank</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>com.adobe.apacdemo.commons</groupId>
+        <artifactId>apacdemo</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>securbank.core</artifactId>
-    <name>SecurBank - Core</name>
-    <description>Core bundle for SecurBank</description>
+    <artifactId>apacdemo.core</artifactId>
+    <name>Demo Commons - Core</name>
+    <description>Core bundle for Demo Commons</description>
     <build>
         <plugins>
             <plugin>
@@ -91,6 +91,7 @@ Import-Package: javax.annotation;version=0.0.0,*
             <artifactId>aem-sdk-api</artifactId>
         </dependency>
 
+
         <!-- AEM Forms Dependencies -->
         <dependency>
             <groupId>com.adobe.aem</groupId>
@@ -100,7 +101,6 @@ Import-Package: javax.annotation;version=0.0.0,*
             <groupId>com.adobe.aem</groupId>
             <artifactId>core-forms-components-core</artifactId>
         </dependency>
-        
         <!-- Testing -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/conf/securbank" mode="update"/>
-    <filter root="/content/securbank" mode="merge"/>
-    <filter root="/content/dam/securbank" mode="merge"/>
-    <filter root="/content/experience-fragments/securbank" mode="merge"/>
-    <filter root="/content/graphiql" mode="merge"/>
+    <filter root="/conf/apacdemo" mode="merge"/>
+    <filter root="/content/apacdemo" mode="merge"/>
+    <filter root="/content/dam/apacdemo" mode="merge"/>
+    <filter root="/content/experience-fragments/apacdemo" mode="merge"/>
 </workspaceFilter>

@@ -22,18 +22,18 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.securbank</groupId>
-        <artifactId>securbank</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>com.adobe.apacdemo.commons</groupId>
+        <artifactId>apacdemo</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>securbank.ui.frontend</artifactId>
+    <artifactId>apacdemo.ui.frontend</artifactId>
     <packaging>pom</packaging>
-    <name>SecurBank - UI Frontend</name>
+    <name>Demo Commons - UI Frontend</name>
 
 
     <!-- ====================================================================== -->

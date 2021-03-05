@@ -15,6 +15,6 @@
   ~ limitations under the License.
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <workspaceFilter version="1.0">
-    <filter root="/apps/securbank-packages"/>
-    <filter root="/apps/securbank-vendor-packages"/>
+    <filter root="/apps/apacdemo-packages"/>
+    <filter root="/apps/apacdemo-vendor-packages"/>
 </workspaceFilter>

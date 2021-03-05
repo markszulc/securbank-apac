@@ -23,15 +23,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.securbank</groupId>
-        <artifactId>securbank</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>com.adobe.apacdemo.commons</groupId>
+        <artifactId>apacdemo</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>securbank.ui.tests</artifactId>
-    <name>SecurBank - UI Tests</name>
-    <description>UI Tests for SecurBank</description>
+    <artifactId>apacdemo.ui.tests</artifactId>
+    <name>Demo Commons - UI Tests</name>
+    <description>UI Tests for Demo Commons</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

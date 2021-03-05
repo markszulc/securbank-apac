@@ -7,16 +7,16 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.securbank</groupId>
-        <artifactId>securbank</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>com.adobe.apacdemo.commons</groupId>
+        <artifactId>apacdemo</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>securbank.dispatcher.cloud</artifactId>
+    <artifactId>apacdemo.dispatcher.cloud</artifactId>
     <packaging>pom</packaging>
-    <name>SecurBank - Dispatcher</name>
-    <description>HTTP &amp; Dispatcher configurations for SecurBank</description>
+    <name>Demo Commons - Dispatcher</name>
+    <description>HTTP &amp; Dispatcher configurations for Demo Commons</description>
 
     <build>
         <plugins>
