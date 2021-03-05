@@ -80,6 +80,17 @@
                             <type>zip</type>
                             <target>/apps/securbank-packages/application/install</target>
                         </embedded>
+                        <embedded>
+                            <groupId>com.adobe.aem</groupId>
+                            <artifactId>core-forms-components-apps</artifactId>
+                            <type>zip</type>
+                            <target>/apps/securbank-vendor-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.aem</groupId>
+                            <artifactId>core-forms-components-core</artifactId>
+                            <target>/apps/securbank-vendor-packages/application/install</target>
+                        </embedded>
                     </embeddeds>
                 </configuration>
             </plugin>
