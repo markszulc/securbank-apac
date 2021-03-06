@@ -18,11 +18,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.adobe.apacdemo.commons</groupId>
-    <artifactId>apacdemo</artifactId>
+    <groupId>com.mysite</groupId>
+    <artifactId>mysite</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
-    <description>Demo Commons</description>
+    <description>My Site</description>
 
     <modules>
         <module>all</module>
@@ -53,7 +53,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <aem.sdk.api>2021.3.4997.20210303T022849Z-210225</aem.sdk.api>
         <aemanalyser.version>0.0.18</aemanalyser.version>
-        <componentGroupName>Demo Commons</componentGroupName>
+        <componentGroupName>My Site</componentGroupName>
     </properties>
 
     <build>
@@ -116,7 +116,7 @@
                 <plugin>
                     <groupId>com.github.eirslett</groupId>
                     <artifactId>frontend-maven-plugin</artifactId>
-                    <version>1.11.0</version>
+                    <version>1.7.6</version>
                     <configuration>
                         <nodeVersion>v10.13.0</nodeVersion>
                         <npmVersion>6.9.0</npmVersion>

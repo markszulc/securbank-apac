@@ -18,15 +18,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.adobe.apacdemo.commons</groupId>
-        <artifactId>apacdemo</artifactId>
+        <groupId>com.mysite</groupId>
+        <artifactId>mysite</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>apacdemo.it.tests</artifactId>
-    <name>Demo Commons - Integration Tests</name>
-    <description>Integration Tests for Demo Commons</description>
+    <artifactId>mysite.it.tests</artifactId>
+    <name>My Site - Integration Tests</name>
+    <description>Integration Tests for My Site</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
