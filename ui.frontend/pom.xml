@@ -22,8 +22,8 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.mysite</groupId>
-        <artifactId>mysite</artifactId>
+        <groupId>com.adobe.apacdemo</groupId>
+        <artifactId>apacdemo</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -31,9 +31,9 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>mysite.ui.frontend</artifactId>
+    <artifactId>apacdemo.ui.frontend</artifactId>
     <packaging>pom</packaging>
-    <name>My Site - UI Frontend</name>
+    <name>APAC Demo - UI Frontend</name>
 
 
     <!-- ====================================================================== -->

@@ -1,6 +1,9 @@
-# Sample AEM project template
+# SecurBank Demo Site
 
-This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
+![Cloud Manager Sync](https://github.com/markszulc/securbank-apac/workflows/Cloud%20Manager%20Sync/badge.svg)
+
+Demo Site for Adobe Experience Manager as a Cloud Service.
+Built on Archetype 25
 
 ## Modules
 

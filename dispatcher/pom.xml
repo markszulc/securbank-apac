@@ -7,16 +7,16 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.mysite</groupId>
-        <artifactId>mysite</artifactId>
+        <groupId>com.adobe.apacdemo</groupId>
+        <artifactId>apacdemo</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>mysite.dispatcher.cloud</artifactId>
+    <artifactId>apacdemo.dispatcher.cloud</artifactId>
     <packaging>pom</packaging>
-    <name>My Site - Dispatcher</name>
-    <description>HTTP &amp; Dispatcher configurations for My Site</description>
+    <name>APAC Demo - Dispatcher</name>
+    <description>HTTP &amp; Dispatcher configurations for APAC Demo</description>
 
     <build>
         <plugins>

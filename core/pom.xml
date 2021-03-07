@@ -18,14 +18,14 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.mysite</groupId>
-        <artifactId>mysite</artifactId>
+        <groupId>com.adobe.apacdemo</groupId>
+        <artifactId>apacdemo</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>mysite.core</artifactId>
-    <name>My Site - Core</name>
-    <description>Core bundle for My Site</description>
+    <artifactId>apacdemo.core</artifactId>
+    <name>APAC Demo - Core</name>
+    <description>Core bundle for APAC Demo</description>
     <build>
         <plugins>
             <plugin>
