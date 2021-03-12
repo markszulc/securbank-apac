@@ -3,4 +3,14 @@
     <filter root="/apps/apacdemo/clientlibs"/>
     <filter root="/apps/apacdemo/components"/>
     <filter root="/apps/apacdemo/i18n"/>
+    <filter root="/apps/securbank"/>
+    <filter root="/apps/securbank/clientlibs"/>
+    <filter root="/apps/securbank/components"/>
+    <filter root="/apps/securbank/i18n"/>
+    <filter root="/apps/securbank/emulators"/>
+    <filter root="/apps/sling" />
+    <filter root="/apps/aem-headless"/>
+    <filter root="/apps/msm/securbank_blueprint" mode="merge"/>
+    <filter root="/apps/graphiql"/>
+    <filter root="/apps/graphql-enablement"/>
 </workspaceFilter>
