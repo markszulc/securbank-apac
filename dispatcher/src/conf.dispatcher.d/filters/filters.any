@@ -27,9 +27,14 @@ $include "./default_filters.any"
 /0107 { /type "allow" /method "POST" /url "/apps/graphql-enablement/content/endpoint.gql/persisted" }
 /0108 { /type "allow" /extension "gql" /url "/apps/graphql-enablement/content/endpoint.gql/persisted/*" }
 
+# GraphQL also supports GET requests, if you intend to use GET include it in the rule below
+/0109 { /type "allow" /method '(POST|OPTIONS)' /url "/content/graphql/global/endpoint.json" /extension "json"}
+
+
 # GraphQL Persisted Queries
 /0120 { /type "allow" /method "POST" /url "/graphql/execute*" }
 /0121 { /type "allow" /url "/graphql/execute*" }
 
 # GraphQL Catch All Query
 /0130 { /type "allow" /extension "json" /url "/content/dam/*.cfm.gql.json" }
+
