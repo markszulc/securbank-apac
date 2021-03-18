@@ -7,6 +7,6 @@
   "smtp.ssl":true,
   "from.address":"markszulc@gmail.com",
   "smtp.port:Integer":465,
-  "smtp.password":"$[env:EMAIL_SECRET]",
+  "smtp.password":"$[secret:EMAIL_SECRET]",
   "smtp.user":"markszulc@gmail.com"
 }
