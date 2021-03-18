@@ -1,0 +1,12 @@
+// Configuration created by Apache Sling JCR Installer
+{
+  "debug.email":true,
+  "smtp.requiretls":false,
+  "smtp.starttls":false,
+  "smtp.host":"smtp.gmail.com",
+  "smtp.ssl":true,
+  "from.address":"markszulc@gmail.com",
+  "smtp.port:Integer":465,
+  "smtp.password":"$[env:EMAIL_SECRET]",
+  "smtp.user":"markszulc@gmail.com"
+}
