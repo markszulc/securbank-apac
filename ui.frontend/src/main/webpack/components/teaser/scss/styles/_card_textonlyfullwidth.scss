@@ -5,6 +5,14 @@
     padding: 0px;
     margin: 0px;
 
+    .cmp-teaser__content {
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
 
     .cmp-teaser__title {
         text-align: left;
@@ -18,25 +26,14 @@
     }
 
     .cmp-teaser__description {
-        text-align: left;
-        font-size: 17px;
-        font-family: rubik, sans-serif;
-        font-style: normal;
-        line-height: 26px;
-        font-weight: 300;
-        color: #000000;
-        opacity: 1;
+        display: none;
     }
 
     .cmp-image__image{
         display: none;
     }
 
-    .cmp-teaser__content {
-        padding: 0px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+
 
     .cmp-teaser__action-container {
         margin: 1em 0;
@@ -59,6 +56,3 @@
 
 }
 
-.cmp-teaser__content {
-    padding: 30px;
-}
