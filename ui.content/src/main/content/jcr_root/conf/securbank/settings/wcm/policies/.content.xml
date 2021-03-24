@@ -171,6 +171,8 @@
             <image jcr:primaryType="nt:unstructured">
                 <policy_651483963895698
                     jcr:description="- Enable lazy loading for faster page loading.&#xd;&#xa;- Define allowed image widths for automatic loading of the image in the most optimal resolution, given the size at which each image is displayed on the page, and the visitor's pixel density.&#xd;&#xa;- Disallow direct asset upload, to force authors to first upload the images to Assets."
+                    jcr:lastModified="{Date}2021-03-24T16:40:39.143+11:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Content Image"
                     sling:resourceType="wcm/core/components/policy/policy"
@@ -178,10 +180,11 @@
                     altValueFromDAM="true"
                     disableLazyLoading="true"
                     displayPopupTitle="true"
+                    enableDmFeatures="true"
                     isDecorative="false"
                     jpegQuality="{Long}85"
                     titleValueFromDAM="true"
-                    uuidDisabled="true">
+                    uuidDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <plugins jcr:primaryType="nt:unstructured">
                         <crop
@@ -217,6 +220,8 @@
             </image>
             <text jcr:primaryType="nt:unstructured">
                 <policy_641562756958017
+                    jcr:lastModified="{Date}2021-03-24T20:37:08.201+11:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Content Text"
                     sling:resourceType="wcm/core/components/policy/policy">
@@ -297,11 +302,22 @@
                             features="bold,italic"/>
                         <links
                             jcr:primaryType="nt:unstructured"
-                            features="modifylink,unlink"/>
+                            features="-"/>
                         <subsuperscript
                             jcr:primaryType="nt:unstructured"
                             features="-"/>
                     </rtePlugins>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0 jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-text-footer"
+                                    cq:styleId="1616578577970"
+                                    cq:styleLabel="Footer Text"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
                 </policy_641562756958017>
             </text>
             <title jcr:primaryType="nt:unstructured">
@@ -545,7 +561,7 @@
             <teaser jcr:primaryType="nt:unstructured">
                 <policy_1575031387650
                     jcr:description="Sets the title size to H3."
-                    jcr:lastModified="{Date}2020-12-02T04:11:22.051+11:00"
+                    jcr:lastModified="{Date}2021-03-24T20:44:25.104+11:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Content Teaser"
@@ -573,6 +589,11 @@
                                     cq:styleId="1606039555541"
                                     cq:styleLabel="Feature"
                                     jcr:primaryType="nt:unstructured"/>
+                                <item3
+                                    cq:styleClasses="cmp-teaser--featuredvar"
+                                    cq:styleId="1616579014136"
+                                    cq:styleLabel="Feature Variation"
+                                    jcr:primaryType="nt:unstructured"/>
                             </cq:styles>
                         </item0>
                         <item1
@@ -590,9 +611,19 @@
                                     cq:styleLabel="Card - Text Only"
                                     jcr:primaryType="nt:unstructured"/>
                                 <item2
+                                    cq:styleClasses="cmp-teaser--card-textonlyfullwidth"
+                                    cq:styleId="1616579050594"
+                                    cq:styleLabel="Card - Text Only Full Width"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item3
                                     cq:styleClasses="cmp-teaser--card-textsolid"
                                     cq:styleId="1606039630617"
                                     cq:styleLabel="Card - Solid Background"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item4
+                                    cq:styleClasses="cmp-teaser--card-smallbox"
+                                    cq:styleId="1616578806653"
+                                    cq:styleLabel="Card - Small Box"
                                     jcr:primaryType="nt:unstructured"/>
                             </cq:styles>
                         </item1>
@@ -667,6 +698,34 @@
                     </cq:styleGroups>
                 </policy_1606037213273>
             </navigation>
+            <list jcr:primaryType="nt:unstructured">
+                <policy_1616578467495
+                    jcr:lastModified="{Date}2021-03-24T20:35:47.562+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="List"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    disableChildren="false"
+                    disableSearch="false"
+                    disableStatic="false"
+                    disableTags="false"
+                    linkItems="false"
+                    showDescription="false"
+                    showModificationDate="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0 jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-list-smalltext"
+                                    cq:styleId="1616578486452"
+                                    cq:styleLabel="Small Text"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1616578467495>
+            </list>
         </components>
     </securbank>
 </jcr:root>

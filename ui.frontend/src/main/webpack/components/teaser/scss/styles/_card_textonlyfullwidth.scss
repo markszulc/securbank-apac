@@ -1,0 +1,64 @@
+
+.cmp-teaser--card-textonlyfullwidth {
+    
+    border: 0px solid #ccc;
+    padding: 0px;
+    margin: 0px;
+
+
+    .cmp-teaser__title {
+        text-align: left;
+        font: Bold 32px/38px Rubik;
+        color: #FF6F20;
+        opacity: 1;
+        max-width: 100%;
+        letter-spacing: 0;
+        padding: 20px;
+
+    }
+
+    .cmp-teaser__description {
+        text-align: left;
+        font-size: 17px;
+        font-family: rubik, sans-serif;
+        font-style: normal;
+        line-height: 26px;
+        font-weight: 300;
+        color: #000000;
+        opacity: 1;
+    }
+
+    .cmp-image__image{
+        display: none;
+    }
+
+    .cmp-teaser__content {
+        padding: 0px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .cmp-teaser__action-container {
+        margin: 1em 0;
+        float: left;
+    }
+    .cmp-teaser__action-link {
+        background-color: $white;
+        text-transform: none;
+        font-size: 17px;
+        padding: 0;
+        font-weight: $font-weight-bold;
+        line-height: 26px;
+        color: $black;
+        float: left;
+        text-align: left;
+        font-family: rubik, sans-serif;
+        letter-spacing: 0;
+        opacity: 1;
+    }
+
+}
+
+.cmp-teaser__content {
+    padding: 30px;
+}
