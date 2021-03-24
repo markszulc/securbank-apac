@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:tags="[]"
-        cq:template="/libs/cq/experience-fragments/components/experiencefragment/template"
+        cq:redirectTarget="/content/securbank/au/en"
+        cq:template="/conf/securbank/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Footer"
-        sling:resourceType="cq/experience-fragments/components/experiencefragment"/>
-    <master/>
+        jcr:title="Australia"
+        sling:resourceType="foundation/components/redirect"/>
+    <en/>
 </jcr:root>

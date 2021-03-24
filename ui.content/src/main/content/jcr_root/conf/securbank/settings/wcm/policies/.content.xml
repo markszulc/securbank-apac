@@ -700,7 +700,7 @@
             </navigation>
             <list jcr:primaryType="nt:unstructured">
                 <policy_1616578467495
-                    jcr:lastModified="{Date}2021-03-24T20:35:47.562+11:00"
+                    jcr:lastModified="{Date}2021-03-25T06:56:59.728+11:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="List"
@@ -720,6 +720,11 @@
                                     cq:styleClasses="cmp-list-smalltext"
                                     cq:styleId="1616578486452"
                                     cq:styleLabel="Small Text"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-list-flexgrid"
+                                    cq:styleId="1616615809005"
+                                    cq:styleLabel="Flex Grid"
                                     jcr:primaryType="nt:unstructured"/>
                             </cq:styles>
                         </item0>
