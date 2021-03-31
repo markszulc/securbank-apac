@@ -7,4 +7,7 @@
     <filter root="/content/dam/apacdemo" mode="merge"/>
     <filter root="/content/experience-fragments/apacdemo" mode="merge"/>
     <filter root="/content/experience-fragments/securbank" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/apacdemo" mode="merge"/>
+    <filter root="/content/dam/apacdemo/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/apacdemo/sample_terms.png" mode="merge"/>
 </workspaceFilter>
