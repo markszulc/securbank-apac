@@ -3,6 +3,36 @@
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
     <rep:policy/>
+        <fd jcr:primaryType="nt:unstructured">
+        <af jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <afpage2 jcr:primaryType="nt:unstructured">
+                    <aftemplatedpage jcr:primaryType="nt:unstructured">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                            <default
+                                jcr:description="Policy of the Adaptive Form page"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Default Page"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                clientlibs="[wcm.foundation.components.page.responsive]">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                            </default>
+                    </aftemplatedpage>
+                </afpage2>
+                <guideContainer jcr:primaryType="nt:unstructured">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <default
+                            jcr:description="Policy of the Adaptive Form Guide Container"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Simple Adaptive Form Guide Container Policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="[group:Adaptive Form]">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                        </default>
+                </guideContainer>
+            </components>
+        </af>
+    </fd>
     <apacdemo jcr:primaryType="nt:unstructured">
         <components jcr:primaryType="nt:unstructured">
             <form jcr:primaryType="nt:unstructured">
