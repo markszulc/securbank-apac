@@ -7,7 +7,6 @@
     <filter root="/apps/securbank/clientlibs"/>
     <filter root="/apps/securbank/components"/>
     <filter root="/apps/securbank/i18n"/>
-    <filter root="/apps/securbank/emulators"/>
     <filter root="/apps/sling" />
     <filter root="/apps/aem-headless"/>
     <filter root="/apps/msm/securbank_blueprint" mode="merge"/>

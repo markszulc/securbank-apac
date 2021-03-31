@@ -54,6 +54,7 @@
                     <group>com.adobe.apacdemo</group>
                     <name>apacdemo.ui.apps</name>
                     <packageType>application</packageType>
+                    <accessControlHandling>merge</accessControlHandling>
                     <repositoryStructurePackages>
                         <repositoryStructurePackage>
                             <groupId>com.adobe.apacdemo</groupId>
