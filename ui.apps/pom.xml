@@ -48,10 +48,12 @@
                 <groupId>org.apache.jackrabbit</groupId>
                 <artifactId>filevault-package-maven-plugin</artifactId>
                 <configuration>
+                    <properties>
+                        <cloudManagerTarget>none</cloudManagerTarget>
+                    </properties>
                     <group>com.adobe.apacdemo</group>
                     <name>apacdemo.ui.apps</name>
                     <packageType>application</packageType>
-                    <accessControlHandling>merge</accessControlHandling>
                     <repositoryStructurePackages>
                         <repositoryStructurePackage>
                             <groupId>com.adobe.apacdemo</groupId>
@@ -89,6 +91,7 @@
                         <configuration>
                             <generateJavaClasses>true</generateJavaClasses>
                             <generatedJavaClassesPrefix>org.apache.sling.scripting.sightly</generatedJavaClassesPrefix>
+                            <sourceDirectory>${project.build.sourceDirectory}</sourceDirectory>
                             <allowedExpressionOptions>
                                 <allowedExpressionOption>cssClassName</allowedExpressionOption>
                                 <allowedExpressionOption>decoration</allowedExpressionOption>
@@ -148,14 +151,8 @@
         <!-- HTL dependencies needed for the HTL Maven Plugin source code generation -->
         <dependency>
             <groupId>org.apache.sling</groupId>
-            <artifactId>org.apache.sling.scripting.sightly.compiler</artifactId>
-            <version>1.2.4-1.4.0</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.sling</groupId>
             <artifactId>org.apache.sling.scripting.sightly.runtime</artifactId>
-            <version>1.2.0-1.4.0</version>
+            <version>1.2.4-1.4.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
