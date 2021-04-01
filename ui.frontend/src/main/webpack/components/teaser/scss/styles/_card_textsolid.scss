@@ -1,0 +1,72 @@
+
+.cmp-teaser--card-textsolid {
+    
+    border: 1px solid #FF6F20;
+    background-color: #FF6F20;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 123px;
+    max-height: 426px;
+
+
+    .cmp-teaser__title {
+        text-align: left;
+        font: Bold 32px/38px Rubik;
+        color: $white;
+        opacity: 1;
+        letter-spacing: 0;
+        height: 76px;
+        margin-top: 0px;
+        margin-bottom: 26px;
+    }
+
+    .cmp-teaser__title-link {
+        color: $white;
+    }
+
+    .cmp-teaser__description {
+        text-align: left;
+        font-size: 17px;
+        font-family: rubik, sans-serif;
+        font-style: normal;
+        line-height: 26px;
+        font-weight: 300;
+        color: $white;
+        opacity: 1;
+    }
+
+    .cmp-image__image{
+        display: none;
+    }
+
+    .cmp-teaser__content {
+        padding: 0px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .cmp-teaser__action-container {
+        margin: 1em 0;
+        float: left;
+    }
+
+    .cmp-teaser__action-link {
+        background-color: none;
+        text-transform: none;
+        font-size: 17px;
+        padding: 0;
+        font-weight: $font-weight-bold;
+        line-height: 26px;
+        color: $white;
+        float: left;
+        text-align: left;
+        font-family: Rubik, sans-serif;
+        letter-spacing: 0;
+        opacity: 1;
+    }
+
+}
+
+.cmp-teaser__content {
+    padding: 30px;
+}

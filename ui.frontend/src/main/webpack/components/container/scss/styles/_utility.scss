@@ -1,0 +1,47 @@
+.cmp-container--utility {
+    min-height: $utility-nav-height;
+    max-height: $utility-nav-height;
+    background-color: $black;
+    color:$gray-lighter;
+    font-size: $font-size-small;
+
+    z-index: 1030;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding-left:0px;
+    padding-right:0px;
+
+    .aem-Grid {
+
+        @media (min-width: $screen-large + 1) {
+            max-width: 1164px;
+            margin: 0 auto;
+            padding: 0 $gutter-padding;
+            float: unset !important;
+            padding-top: 10px;
+           
+        }
+    }
+
+
+        a {
+        color: $gray-light;
+        font-size: $font-size-small;
+        text-transform: uppercase;
+    }
+
+
+
+}
+
+
+    /* Tablet width */
+    @media (max-width: $screen-medium) {
+
+        .cmp-container--utility {
+            display: none !important;
+        }
+        
+    }

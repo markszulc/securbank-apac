@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2021-03-25T06:57:24.374+11:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/securbank/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="SecurBank Australia"
+        sling:resourceType="securbank/components/page"
+        pageTitle="SecurBank Australia">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="securbank/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="securbank/components/container">
+                <teaser
+                    cq:styleIds="[1606039554022]"
+                    jcr:created="{Date}2021-03-24T16:56:41.311+11:00"
+                    jcr:createdBy="admin"
+                    jcr:description="&lt;p>We make it easy to get what you need done faster.&lt;/p>&#xd;&#xa;"
+                    jcr:lastModified="{Date}2021-03-24T17:08:57.527+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Banking from Home?"
+                    sling:resourceType="securbank/components/teaser"
+                    actionsEnabled="true"
+                    descriptionFromPage="false"
+                    fileReference="/content/dam/securbank/english/temp/AdobeStock_146003303.jpeg"
+                    textIsRich="true"
+                    titleFromPage="false">
+                    <actions jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            link="/content/securbank/au/en"
+                            text="Find out how"/>
+                    </actions>
+                </teaser>
+                <container
+                    cq:styleIds="[1606011603279]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="securbank/components/container"
+                    layout="responsiveGrid">
+                    <teaser_1293339319
+                        cq:styleIds="[1616579014136]"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>You can ask our team any banking questions, or get automated responses while we sleep. Can you tell the difference?&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2021-03-24T20:42:59.459+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Need to Chat? Whats that a bot?"
+                        sling:resourceType="securbank/components/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="false"
+                        textIsRich="true"
+                        titleFromPage="false"/>
+                    <title
+                        jcr:created="{Date}2021-03-24T17:10:05.942+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-03-24T17:15:52.029+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Helping you through these interesting times"
+                        sling:resourceType="securbank/components/title"/>
+                    <container
+                        cq:styleIds="[1607144368035]"
+                        jcr:created="{Date}2021-03-24T17:16:20.040+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-03-24T17:16:20.040+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="securbank/components/container">
+                        <teaser_copy_544256716
+                            cq:styleIds="[1606039622409]"
+                            jcr:created="{Date}2021-03-24T17:16:38.309+11:00"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>No more juggling of numerous interest rates and repayment schedules. 100% online application. Up to $70,000. Competitive Rates.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2021-03-24T17:51:51.475+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Managing your debt"
+                            sling:resourceType="securbank/components/teaser"
+                            actionsEnabled="true"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/securbank/english/temp/AdobeStock_113669514.jpeg"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    link="/content/securbank/au/en"
+                                    text="Find out more"/>
+                            </actions>
+                        </teaser_copy_544256716>
+                        <teaser_copy
+                            cq:styleIds="[1606039622409]"
+                            jcr:created="{Date}2021-03-24T17:16:38.309+11:00"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>Make sure you aren't out of pocket. Our travel checklist covers the top 10 money tips to think about before you leave home.&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2021-03-24T18:03:43.271+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Travelling Overseas?"
+                            sling:resourceType="securbank/components/teaser"
+                            actionsEnabled="true"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/securbank/english/temp/AdobeStock_115991178.jpeg"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    link="/content/securbank/au/en"
+                                    text="Find out more"/>
+                            </actions>
+                        </teaser_copy>
+                        <teaser
+                            cq:styleIds="[1606039622409]"
+                            jcr:created="{Date}2021-03-24T17:16:38.309+11:00"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>More ways to pay, manage &amp;amp; access your money. Plus our innovative securBANK app helps you track your spending and stay in control.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2021-03-24T20:13:09.694+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Buying your first home"
+                            sling:resourceType="securbank/components/teaser"
+                            actionsEnabled="true"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/securbank/english/temp/AdobeStock_136083130.jpeg"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    link="/content/securbank/au/en"
+                                    text="Find out more"/>
+                            </actions>
+                        </teaser>
+                    </container>
+                    <title_copy_copy
+                        jcr:created="{Date}2021-03-24T17:10:05.942+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-03-24T17:10:27.304+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Calculators and Tools"
+                        sling:resourceType="securbank/components/title"/>
+                    <list
+                        cq:styleIds="[1616615809005]"
+                        jcr:created="{Date}2021-03-24T18:07:30.495+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-03-24T18:12:46.151+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="securbank/components/list"
+                        childDepth="1"
+                        linkItems="false"
+                        listFrom="static"
+                        pages="[/content/securbank/au/en/loans/home-loan-repayment-calculator,/content/securbank/au/en/loans/home-loan-borrowing-power-calculator,/content/securbank/au/en/loans/personal-loan-repayment-calculator,/content/securbank/au/en/loans/personal-loan-borrowing-power-calculator,/content/securbank/au/en/credit-cards/credit-card-selector-tool,/content/securbank/au/en/credit-cards/credit-card-compare-tool]"
+                        showDescription="false"
+                        showModificationDate="false"
+                        sortOrder="asc"
+                        tagsMatch="any"/>
+                    <separator
+                        jcr:created="{Date}2021-03-24T17:12:54.243+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-03-24T17:12:54.243+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="securbank/components/separator"/>
+                    <teaser
+                        cq:styleIds="[1616579050594]"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-03-24T20:58:30.082+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Are you facing financial hardship?"
+                        sling:resourceType="securbank/components/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="false"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/securbank/au/en"
+                                text="Get Help"/>
+                        </actions>
+                    </teaser>
+                    <separator_copy
+                        jcr:created="{Date}2021-03-24T17:12:54.243+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-03-24T17:12:54.243+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="securbank/components/separator"/>
+                    <title_copy
+                        jcr:created="{Date}2021-03-24T17:10:05.942+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-03-24T20:01:51.945+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Some more things we think you might be interested in..."
+                        sling:resourceType="securbank/components/title"/>
+                    <container_copy
+                        cq:styleIds="[1607144368035]"
+                        jcr:created="{Date}2021-03-24T17:16:20.040+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-03-24T17:16:20.040+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="securbank/components/container">
+                        <teaser_copy_544256716
+                            cq:styleIds="[1616578806653]"
+                            jcr:created="{Date}2021-03-24T17:16:38.309+11:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-03-24T20:15:45.987+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Protect yourself while online shopping"
+                            sling:resourceType="securbank/components/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/securbank/english/temp/AdobeStock_171764490.jpeg"
+                            linkURL="/content/securbank/au/en"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    link="/content/securbank/au/en"
+                                    text="Find out more"/>
+                            </actions>
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="3"/>
+                            </cq:responsive>
+                        </teaser_copy_544256716>
+                        <teaser
+                            cq:styleIds="[1616578806653]"
+                            jcr:created="{Date}2021-03-24T17:16:38.309+11:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-03-24T20:16:22.424+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Are you earning the rewards you should?"
+                            sling:resourceType="securbank/components/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/securbank/english/temp/AdobeStock_99648740.jpeg"
+                            linkURL="/content/securbank/au/en"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    link="/content/securbank/au/en"
+                                    text="Find out more"/>
+                            </actions>
+                        </teaser>
+                        <teaser_copy
+                            cq:styleIds="[1616578806653]"
+                            jcr:created="{Date}2021-03-24T17:16:38.309+11:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-03-24T20:16:06.484+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Are you covered for things go bump?"
+                            sling:resourceType="securbank/components/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/securbank/english/temp/AdobeStock_35351354.jpeg"
+                            linkURL="/content/securbank/au/en"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    link="/content/securbank/au/en"
+                                    text="Find out more"/>
+                            </actions>
+                        </teaser_copy>
+                    </container_copy>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+    <banking/>
+    <credit-cards/>
+    <loans/>
+    <insurance/>
+    <about-us/>
+    <toolbar/>
+</jcr:root>

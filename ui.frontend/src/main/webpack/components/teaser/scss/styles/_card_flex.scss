@@ -1,0 +1,38 @@
+
+.cmp-teaser--flexcard {
+    
+    border: 1px solid #ccc;
+    padding: 0px;
+    margin: 0px;
+    max-width: 360px;
+
+    /* Tablet width */
+     @media (max-width: $screen-medium) {
+                max-width: 100%;
+                border: 0px;
+     }
+
+            
+
+    .cmp-image__image{
+        margin-top: 0px; 
+        margin-bottom: 0px;
+    }
+
+    .cmp-teaser__content {
+        padding: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 250px;
+        margin-top: 1.3em;
+        margin-bottom: 1.3em;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+}
+
+.cmp-teaser__content {
+    padding: 30px;
+}

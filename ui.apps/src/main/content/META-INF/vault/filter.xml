@@ -3,4 +3,8 @@
     <filter root="/apps/apacdemo/clientlibs"/>
     <filter root="/apps/apacdemo/components"/>
     <filter root="/apps/apacdemo/i18n"/>
+    <filter root="/apps/securbank"/>
+    <filter root="/apps/securbank/clientlibs"/>
+    <filter root="/apps/securbank/components"/>
+    <filter root="/apps/securbank/i18n"/>
 </workspaceFilter>

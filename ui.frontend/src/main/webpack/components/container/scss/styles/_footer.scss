@@ -1,0 +1,53 @@
+
+.cmp-container--footer {
+ 
+    background-color: $black;
+    color: $gray-light;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    margin-top: 3rem;
+
+    /* Style Text Component */
+    .cmp-text {
+
+        p {
+            line-height: 1.25;
+        }
+
+           /* Tablet width */
+        @media (max-width: $screen-medium) {
+
+        padding-left:14px;
+        padding-right:14px;
+
+}
+
+        a {
+            color: $gray-lighter;
+            text-decoration: underline;
+        }
+    }
+
+    .cmp-list {
+
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        .cmp-list__item {
+            display: inline-block;
+            margin-right: 32px;
+            
+        
+        
+            .cmp-list__item-link {
+                text-decoration: none;
+                color: $gray-light;
+            
+            }
+
+        }
+    }
+}
