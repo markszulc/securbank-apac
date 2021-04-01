@@ -32,7 +32,7 @@ services:
       - SHARED_FOLDER=/tmp/shared
       - HEADLESS_BROWSER
     volumes:
-      - ./target/reports:/tmp/reports
+      - ./reports:/tmp/reports
       - 'shared:/tmp/shared'
     image: 'com.adobe.apacdemo-apacdemo.ui.tests/ui.tests:latest'
   selenium-firefox:

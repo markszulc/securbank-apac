@@ -1,117 +1,18 @@
 
 //== Font
 
-$font-family-sans-serif:  "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-serif:       "Asar",Georgia, "Times New Roman", Times, serif;
-$font-family-base:        $font-family-sans-serif;
-$font-family:        $font-family-sans-serif;
-
-
-$font-size-base:          18px;
-$font-size-large:         24px;
-$font-size-xlarge:        48px;
-$font-size-medium:		  18px;
-$font-size-small:         14px;
-$font-size-xsmall:		  12px;
-
-$font-size-h1:            36px;
-$font-size-h2:            32px; 
-$font-size-h3:            24px; 
-$font-size-h4:            16px; 
-$font-size-h5:            14px;
-$font-size-h6:            10px; 
-
-$font-size:             $font-size-base;
-
-//** Unit-less `line-height` for use in components like buttons.
-$line-height-base:        1.5;
-$line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
-$font-height:             $line-height-base;
-
-$font-weight-light:      300;
-$font-weight-normal:     normal;
-$font-weight-semi-bold:  400;
-$font-weight-bold:       600;
-
-//== Layout
-$gutter-padding: 14px;
-
-$max-width: 1164px;
-$max-body-width: 1136px;
-$screen-xsmall: 475px;
-$screen-small: 767px;
-$screen-medium: 1024px;
-$screen-large: 1200px;
-
-//=== Page Layout
-$header-height: 0px;
-$header-mobile-height: 0px;
-$utility-nav-height: 40px;
-
+$font-family:           "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size:             16px;
+$font-height:           1.5;
 
 //== Color
 
-$black:                  #202020;
-$gray:                   #696969;
-$gray-light:             #EBEBEB;
-$gray-lighter:           #F7F7F7;
-$white:                  #ffffff;
-
-$orange:                 #FF6F20;
-$yellow:                 #FFE900;
-$blue:                   #0045FF;
-$pink:                   #FF0058;
-
-
-$brand-primary:           $orange;
-
 // Normal mode
-$color-foreground:      $black;
-$color-background:      $white;
+$color-foreground:      #202020;
+$color-background:      #ECECEC;
 $color-link:            #2020E0;
-$text-color:            $color-foreground;
-$nav-link:              $black;
-$nav-link-inverse:      $gray-light;
-
-$list-item-height: 120px;
-$list-item-border: 5px solid $color-foreground;
 
 // Dark mode
-$color-foreground-dark: $color-foreground;  //invert($color-foreground);
-$color-background-dark: $color-background;  //invert($color-background);
-$color-link-dark: $color-link; //invert($color-link);
-
-
-
-@mixin container-fixed($gutter: $grid-gutter-width){
-    margin-right: auto;
-    margin-left: auto;
-    padding-left:  floor(($gutter / 2));
-    padding-right: ceil(($gutter / 2));
-  }
-
-@mixin container-content(){
-  max-width: $max-width;
-  margin: 0 auto;
-  padding: 0 $gutter-padding;
-  float: unset !important;
-	
-}
-
-@mixin animated(){
-  -webkit-animation-duration: 0.5s;
-  animation-duration: 0.5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@mixin fadeIn(){
--webkit-animation-name: fadeIn;
-animation-name: fadeIn;
-}
-
-@mixin boxShadow(){
-  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
-  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
-  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
-}
+$color-foreground-dark: invert($color-foreground);
+$color-background-dark: invert($color-background);
+$color-link-dark:       invert($color-link);

@@ -1,7 +1,6 @@
 {
   "mobile.resourceTypes": [
-    "apacdemo/components/page",
-    "securbank/components/page"
+    "apacdemo/components/page"
   ],
   "README": "Indicate which page resource types should display the mobile emulators."
 }

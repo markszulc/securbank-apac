@@ -9,15 +9,13 @@ const { CleanWebpackPlugin }  = require('clean-webpack-plugin');
 
 const SOURCE_ROOT = __dirname + '/src/main/webpack';
 
-const resolve = {
-    extensions: ['.js', '.ts'],
-    plugins: [new TSConfigPathsPlugin({
-        configFile: './tsconfig.json'
-    })]
-};
-
 module.exports = {
-    resolve: resolve,
+    resolve: {
+        extensions: ['.js', '.ts'],
+        plugins: [new TSConfigPathsPlugin({
+            configFile: './tsconfig.json'
+        })]
+    },
     entry: {
         site: SOURCE_ROOT + '/site/main.ts'
     },
@@ -43,9 +41,9 @@ module.exports = {
                         loader: 'ts-loader'
                     },
                     {
-                        loader: 'glob-import-loader',
+                        loader: 'webpack-import-glob-loader',
                         options: {
-                            resolve: resolve
+                            url: false
                         }
                     }
                 ]
@@ -82,9 +80,9 @@ module.exports = {
                         }
                     },
                     {
-                        loader: 'glob-import-loader',
+                        loader: 'webpack-import-glob-loader',
                         options: {
-                            resolve: resolve
+                            url: false
                         }
                     }
                 ]

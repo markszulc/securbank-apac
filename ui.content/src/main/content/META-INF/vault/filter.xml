@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/conf/apacdemo" mode="merge"/>
-    <filter root="/conf/securbank" mode="merge"/>
     <filter root="/content/apacdemo" mode="merge"/>
-    <filter root="/content/securbank" mode="merge"/>
     <filter root="/content/dam/apacdemo" mode="merge"/>
     <filter root="/content/experience-fragments/apacdemo" mode="merge"/>
-    <filter root="/content/experience-fragments/securbank" mode="merge"/>
-    <filter root="/content/dam/formsanddocuments-themes/apacdemo" mode="merge"/>
-    <filter root="/content/dam/apacdemo/sample_logo.png" mode="merge"/>
-    <filter root="/content/dam/apacdemo/sample_terms.png" mode="merge"/>
 </workspaceFilter>
