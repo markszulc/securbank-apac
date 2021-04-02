@@ -7,4 +7,5 @@
     <filter root="/apps/securbank/clientlibs"/>
     <filter root="/apps/securbank/components"/>
     <filter root="/apps/securbank/i18n"/>
+    <filter root="/apps/graphiql"/>
 </workspaceFilter>
