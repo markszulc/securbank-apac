@@ -1,7 +1,9 @@
-# SecurBank - Sample AEM project template
+# SecurBank Demo Site
 
-FSI Demo experience built for AEM Cloud Service with Archetype 27
+![Cloud Manager Sync](https://github.com/markszulc/securbank-apac/workflows/Cloud%20Manager%20Sync/badge.svg)
 
+FSI Demo Site for Adobe Experience Manager as a Cloud Service.
+Built on Archetype 27
 ## Modules
 
 The main parts of the template are:
