@@ -1,4 +1,4 @@
-.offer-banner{
+.cf-offer-banner{
 
 .cmp-contentfragment {
 
@@ -63,7 +63,7 @@
         }
     }
 
-    .cmp-contentfragment__element--image {
+    .cmp-contentfragment_image {
 
         z-index: 1;
 
@@ -72,7 +72,7 @@
         }
 
         img {
-            width: 100%;
+            width: 800px;
             height: 100%;
             object-fit: cover;
             object-position: center;
